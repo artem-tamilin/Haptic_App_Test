@@ -75,10 +75,10 @@ class MainActivity : ComponentActivity() {
 data class Vibration(val name: String, val value: Int, val api: Int)
 
 val vibrationsList = listOf(
-    Vibration("LONG_PRESS", HapticFeedbackConstants.LONG_PRESS, 1),
-    Vibration("VIRTUAL_KEY", HapticFeedbackConstants.VIRTUAL_KEY, 1),
-    Vibration("KEYBOARD_TAP", HapticFeedbackConstants.KEYBOARD_TAP, 1),
-    Vibration("CLOCK_TICK", HapticFeedbackConstants.CLOCK_TICK, 1),
+    Vibration("LONG_PRESS", HapticFeedbackConstants.LONG_PRESS, 3),
+    Vibration("VIRTUAL_KEY", HapticFeedbackConstants.VIRTUAL_KEY, 5),
+    Vibration("KEYBOARD_TAP", HapticFeedbackConstants.KEYBOARD_TAP, 8),
+    Vibration("CLOCK_TICK", HapticFeedbackConstants.CLOCK_TICK, 21),
     Vibration("CONTEXT_CLICK", HapticFeedbackConstants.CONTEXT_CLICK, 23),
     Vibration("KEYBOARD_PRESS", HapticFeedbackConstants.KEYBOARD_PRESS, 27),
     Vibration("KEYBOARD_RELEASE", HapticFeedbackConstants.KEYBOARD_RELEASE, 27),
@@ -88,8 +88,8 @@ val vibrationsList = listOf(
     Vibration("GESTURE_END", HapticFeedbackConstants.GESTURE_END, 30),
     Vibration("CONFIRM", HapticFeedbackConstants.CONFIRM, 30),
     Vibration("REJECT", HapticFeedbackConstants.REJECT, 30),
-    Vibration("TOGGLE_ON", HapticFeedbackConstants.TOGGLE_ON, 34), // API level updated based on user's correction
-    Vibration("TOGGLE_OFF", HapticFeedbackConstants.TOGGLE_OFF, 34), // API level updated based on user's correction
+    Vibration("TOGGLE_ON", HapticFeedbackConstants.TOGGLE_ON, 34),
+    Vibration("TOGGLE_OFF", HapticFeedbackConstants.TOGGLE_OFF, 34),
     Vibration("GESTURE_THRESHOLD_ACTIVATE", HapticFeedbackConstants.GESTURE_THRESHOLD_ACTIVATE, 34),
     Vibration("GESTURE_THRESHOLD_DEACTIVATE", HapticFeedbackConstants.GESTURE_THRESHOLD_DEACTIVATE, 34),
     Vibration("DRAG_START", HapticFeedbackConstants.DRAG_START, 34),
